@@ -2,11 +2,10 @@
 """validate .rst file(s)"""
 # -*- coding: utf-8 -*-
 import click
-import os
 import sys
 import rstvalidator
 
-MODULE_NAME = os.path.splitext(os.path.basename(__file__))[0]
+MODULE_NAME = "rstvalidator"
 PROG_NAME = 'python -m %s' % MODULE_NAME
 USAGE = 'python -m %s path ...' % MODULE_NAME
 

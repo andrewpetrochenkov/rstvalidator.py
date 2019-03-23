@@ -19,7 +19,7 @@ function|`__doc__`
 #### CLI
 usage|`__doc__`
 -|-
-`python -m __main__ path ...` |validate .rst file(s)
+`python -m rstvalidator path ...` |validate .rst file(s)
 
 #### Examples
 ```bash
