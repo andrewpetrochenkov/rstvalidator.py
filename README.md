@@ -1,5 +1,6 @@
 <!--
 https://pypi.org/project/readme-generator/
+https://pypi.org/project/python-readme-generator/
 -->
 
 [![](https://img.shields.io/pypi/pyversions/rstvalidator.svg?longCache=True)](https://pypi.org/project/rstvalidator/)
@@ -16,7 +17,7 @@ function|`__doc__`
 -|-
 `rstvalidator.rstvalidator(path)` |validate .rst file
 
-#### CLI
+#### Executable modules
 usage|`__doc__`
 -|-
 `python -m rstvalidator path ...` |validate .rst file(s)
@@ -27,5 +28,5 @@ $ python -m rstvalidator README.rst
 ```
 
 <p align="center">
-    <a href="https://pypi.org/project/readme-generator/">readme-generator</a>
+    <a href="https://pypi.org/project/python-readme-generator/">python-readme-generator</a>
 </p>
