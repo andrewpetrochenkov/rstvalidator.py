@@ -1,11 +1,12 @@
-#!/usr/bin/env python
+__all__ = ['rstvalidator']
+
+
 """validate .rst files"""
 # -*- coding: utf-8 -*-
 import os
 import sys
 from docutils import utils
 from docutils.core import publish_parts
-import public
 
 """
 'pygments' required
@@ -32,7 +33,6 @@ def system_message(self, level, message, *children, **kwargs):
     return result
 
 
-@public.add
 def rstvalidator(path):
     """validate .rst file"""
     sys.modules[__name__].reports = []
